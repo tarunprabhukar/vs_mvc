@@ -13,5 +13,10 @@ namespace Sample_MVC_Test.Controllers
         {
             return "Hello World, This is my first MVC App";
         }
+
+        public string GetCurrentTime()
+        {
+            return DateTime.Now.ToString("T");
+        }
     }
 }
