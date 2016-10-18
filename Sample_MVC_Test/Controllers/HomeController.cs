@@ -11,7 +11,7 @@ namespace Sample_MVC_Test.Controllers
         // GET: Home
         public string Index()
         {
-            return "Hello World, This is my first MVC App";
+            return "This is Index Method";
         }
 
         public string GetCurrentTime()
