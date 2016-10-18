@@ -11,7 +11,8 @@ namespace Sample_MVC_Test.Controllers
         // GET: Home
         public string Index()
         {
-            return "This is Index Method";
+            string s = "This is Index Method";
+            return s;
         }
 
         public string GetCurrentTime()
